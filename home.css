@@ -54,19 +54,22 @@ html{
 }
 .row-bar {
     height: 100px;
-    width: 87%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 0;
     background-color: #603d1e;
+
 }
 .logo {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 6%;
+    background-color: blue;
 }
 .logo h2 {
     font-size: 30px;
